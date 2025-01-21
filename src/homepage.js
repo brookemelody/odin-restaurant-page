@@ -5,7 +5,7 @@
 export default function createHomepage(contentDiv) {
     const container = document.querySelector(contentDiv);
     const homepageContainer = document.createElement("div");
-    homepageContainer.textContent = "Hello, World!";
+    homepageContainer.textContent = "Hello, World!\nThis is the home page for the restaurant.";
 
     container.appendChild(homepageContainer);    
 }
